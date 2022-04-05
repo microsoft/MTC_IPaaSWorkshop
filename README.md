@@ -6,7 +6,26 @@
 ## Architecture Overview
 ![IPaaS Order Processor Architecture Overview.](./media/overview.png)
 ## Resources Descriptions
-IP
+- Resources group - Contains all workshop resources.
+	
+- CosmosDB - Stores Pre/Post processed order documents.
+	
+- API Management service - Serves as ra equest proxy and gateway.
+
+- Service Bus - Serves as an integration point between the order processing system and the enterprise email system.  In practice this messaging bus could also serve as abstraction point between any inter process communication or integration.
+	
+- Function app - Recieves Cosmos change events and acts as an integration point with other external services (address services, inventory service, etc.)
+	
+- Logic apps - Provides the business workflows
+	- Incoming order receiver
+	- Complete order processor
+	- Service Bus notification queue producer
+	- Service Bus notification consumer / email producer
+
+- Office 365 tenant - Email provider / integration user account provider
+	Order Notifier - Notifier service integration
+	Orders - Email notification account
+
 
 ## Process Flow
 IP
