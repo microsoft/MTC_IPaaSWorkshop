@@ -11,6 +11,58 @@ IP
 ## Process Flow
 IP
 
+## Build and deploy the reference Order Processor 
+### 1. [Prequisite Setup](./01-prequisites.md)
+
+stub
+
+### 2. [Core Infrastructure Provisioning](./02-core-infra.md)
+
+stub
+
+### 3. [Create Order Receiver Logic App](./03-order-reciever-la.md)
+
+stub
+
+### 4. [Create Order Processor Logic App](./04-order-processor-la.md)
+
+stub
+
+### 5. [Create Integration Trigger Function App](./05-integration-trigger-function.md)
+
+stub
+
+### 6. [Create Integration Service Bus Queue](./06-integration-servicebus.md)
+
+stub
+
+### 7. [Create Service Bus message Producer Logic App](./07-servicebus-producer-la.md)
+
+stub
+
+### 8. [Create Service Bus Consumer Logic App](./08-servicebus-consumer-la.md)
+
+stub
+
+### 9. [(Optional) Integrate Order Notification with Teams](./09-teams-integration.md)
+
+stub
+
+### 10. [End-to-End Functional Test](./10-end-to-end-test.md)
+
+stub
+
+### 11. [End-to-End Monitoring](./11-end-to-end-monitoring.md)
+
+stub
+
+
+## Additional Considerations
+
+
+
+
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
