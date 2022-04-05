@@ -1,14 +1,15 @@
-# Project
+# Azure Platform as a Service Workshop / Demo
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+## Workshop Overview
+- one pager stub
+- presentational options
+## Architecture Overview
+![IPaaS Order Processor Architecture Overview.](./media/overview.png)
+## Resources Descriptions
+IP
 
-As the maintainer of this project, please make a few updates:
-
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+## Process Flow
+IP
 
 ## Contributing
 
