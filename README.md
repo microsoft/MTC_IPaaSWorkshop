@@ -60,11 +60,18 @@ The overall process flow for this architectute is:
 ## Build and deploy the reference Order Processor 
 ### 1. [Prequisite Setup](./01-prequisites.md)
 
-stub
+This module contains the necessary prequisite setup required for completing the workshop as described.
 
 ### 2. [Core Infrastructure Provisioning](./02-core-infra.md)
 
-stub
+In this module you will set up the related logical infrastructure and supporting PaaS services including:
+
+- Resource Group
+- Log Analytics Workspace
+- Application Insights
+- API Management Service
+- CosmosDB and needed containers
+
 
 ### 3. [Create Order Receiver Logic App](./03-order-reciever-la.md)
 
