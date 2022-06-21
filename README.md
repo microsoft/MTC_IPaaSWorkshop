@@ -10,7 +10,7 @@
 	
 - CosmosDB - Stores Pre/Post processed order documents.
 	
-- API Management service - Serves as ra equest proxy and gateway.
+- API Management service - Serves as a request proxy and gateway.
 
 - Service Bus - Serves as an integration point between the order processing system and the enterprise email system.  In practice this messaging bus could also serve as abstraction point between any inter process communication or integration.
 	
@@ -54,9 +54,6 @@ The overall process flow for this architectute is:
 - All deployment can be automated and full CI/CD with ARM / Bicep and GH actions.
 
 
-
-
-
 ## Build and deploy the reference Order Processor 
 ### 1. [Prequisite Setup](./01-prequisites.md)
 
@@ -75,39 +72,39 @@ In this module you will set up the related logical infrastructure and supporting
 
 ### 3. [Create Order Receiver Logic App](./03-order-reciever-la.md)
 
-stub
+In this module you will create the Logic App responsible for recieving the initial order and persisting it to the pre processed cosmos container.  You will also integrate the Logic App with APIM.
 
 ### 4. [Create Order Processor Logic App](./04-order-processor-la.md)
 
-stub
+In this module you will create the Logic App responsible for proccessing the finalized order, persisting it to the completed orders cosmos container.  You will also integrate the Logic App with APIM.
 
 ### 5. [Create Integration Trigger Function App](./05-integration-trigger-function.md)
 
-stub
+This module will create the CosmosDB trigger functiona app responsible for processing persisted unprocessed orders.
 
 ### 6. [Create Integration Service Bus Queue](./06-integration-servicebus.md)
 
-stub
+In this module you will create the Service Bus instance that will provide the queue for completed order that will be service by a Logic App resulting in customer order complete notifications.
 
 ### 7. [Create Service Bus message Producer Logic App](./07-servicebus-producer-la.md)
 
-stub
+Here you will create the Logic App responsible for producing the order complete message that will be placed onto the service bus for customer notification.
 
 ### 8. [Create Service Bus Consumer Logic App](./08-servicebus-consumer-la.md)
 
-stub
+This module will create the Logic app responsible for notifiy the customer their order has been processed.
 
 ### 9. [(Optional) Integrate Order Notification with Teams](./09-teams-integration.md)
 
-stub
+Here you will setup a teams notification process to notify our theoretical warehouse team that an order is ready to ship.
 
 ### 10. [End-to-End Functional Test](./10-end-to-end-test.md)
 
-stub
+This module will tie everything together deomonstrating and executing end to end functionality.
 
 ### 11. [End-to-End Monitoring](./11-end-to-end-monitoring.md)
 
-stub
+In the final module you'll demonstrate end-to-end monitoring by utilizing distributed tracing across all involved services.
 
 
 ## Additional Considerations
