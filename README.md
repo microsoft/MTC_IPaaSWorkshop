@@ -57,11 +57,11 @@ The overall process flow for this architectute is:
 ## Build and deploy the reference Order Processor 
 ### 1. [Prequisite Setup](./01-prequisites.md)
 
-This module contains the necessary prequisite setup required for completing the workshop as described.
+This exercise contains the necessary prequisite setup required for completing the workshop as described.
 
 ### 2. [Core Infrastructure Provisioning](./02-core-infra.md)
 
-In this module you will set up the related logical infrastructure and supporting PaaS services including:
+In this exercise you will set up the related logical infrastructure and supporting PaaS services including:
 
 - Resource Group
 - Log Analytics Workspace
@@ -72,19 +72,19 @@ In this module you will set up the related logical infrastructure and supporting
 
 ### 3. [Create Order Receiver Logic App](./03-order-reciever-la.md)
 
-In this module you will create the Logic App responsible for recieving the initial order and persisting it to the pre processed cosmos container.  You will also integrate the Logic App with APIM.
+In this exercise you will create the Logic App responsible for recieving the initial order and persisting it to the pre processed cosmos container.  You will also integrate the Logic App with APIM.
 
 ### 4. [Create Order Processor Logic App](./04-order-processor-la.md)
 
-In this module you will create the Logic App responsible for proccessing the finalized order, persisting it to the completed orders cosmos container.  You will also integrate the Logic App with APIM.
+In this exercise you will create the Logic App responsible for proccessing the finalized order, persisting it to the completed orders cosmos container.  You will also integrate the Logic App with APIM.
 
 ### 5. [Create Integration Trigger Function App](./05-integration-trigger-function.md)
 
-This module will create the CosmosDB trigger functiona app responsible for processing persisted unprocessed orders.
+This exercise will create the CosmosDB trigger functiona app responsible for processing persisted unprocessed orders.
 
 ### 6. [Create Integration Service Bus Queue](./06-integration-servicebus.md)
 
-In this module you will create the Service Bus instance that will provide the queue for completed order that will be service by a Logic App resulting in customer order complete notifications.
+In this exercise you will create the Service Bus instance that will provide the queue for completed order that will be service by a Logic App resulting in customer order complete notifications.
 
 ### 7. [Create Service Bus message Producer Logic App](./07-servicebus-producer-la.md)
 
@@ -92,7 +92,7 @@ Here you will create the Logic App responsible for producing the order complete 
 
 ### 8. [Create Service Bus Consumer Logic App](./08-servicebus-consumer-la.md)
 
-This module will create the Logic app responsible for notifiy the customer their order has been processed.
+This exercise will create the Logic app responsible for notifiy the customer their order has been processed.
 
 ### 9. [(Optional) Integrate Order Notification with Teams](./09-teams-integration.md)
 
@@ -100,11 +100,11 @@ Here you will setup a teams notification process to notify our theoretical wareh
 
 ### 10. [End-to-End Functional Test](./10-end-to-end-test.md)
 
-This module will tie everything together deomonstrating and executing end to end functionality.
+This exercise will tie everything together deomonstrating and executing end to end functionality.
 
 ### 11. [End-to-End Monitoring](./11-end-to-end-monitoring.md)
 
-In the final module you'll demonstrate end-to-end monitoring by utilizing distributed tracing across all involved services.
+In the final exercise you'll demonstrate end-to-end monitoring by utilizing distributed tracing across all involved services.
 
 
 ## Additional Considerations

@@ -6,14 +6,16 @@ This is the starting point for the instructions on building and deploying the [M
 - IDE -> [Visual Studio Code](https://code.visualstudio.com/)
     - Azure Tools Extension
 
-        ![Azure Tools Extension.](./media/az_tools_ext.png)
+        ![Azure Tools Extension.](./media/ex1/az_tools_ext.png)
     
     - Azure Functions Extension
 
-        ![Azure Tools Extension.](./media/az_fun_ext.png)
+        ![Azure Tools Extension.](./media/ex1/az_fun_ext.png)
 
 - Development SDK -> [.NET 3.1](https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
 
 - Rest Client -> [Postman](https://www.postman.com/)
 
 - (Optional) Office 365 user account.  Used to create order confirmation emails and order received Teams channel notifications.
+
+At this point you should now have the prerequisite tools in place to complete the workshop and can begin [Exercise 1 - Core Infrastructure Provisioning](./02-core-infra.md).
