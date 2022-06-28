@@ -41,7 +41,50 @@ In the exercise we'll create the Logic App that is responsible for recieving the
 
 5) Save the created workflow and test using the newly generated POST URL:
 
-    - Using Postman we can confirm that the when submitting a JSON order document, we receive a response body and code of 200.
+    a) Using Postman we can confirm that when submitting a JSON order document, we receive a response body and code of 200.
 
     ![Postman Test 1](./media/ex3/la1_or_test1.png)
+
+    b) Confirmj that the order is persisted in the Cosmos PendingOrders Collection.
+
+    ![Cosmos PendingOrders](./media/ex3/la1_or_test2.png)
+
+6) Integrate the Logic App with APIM:
+
+    a) Create the "Orders" API
+
+    ![Orders API](./media/ex3/la1_or_apim1.png)
+
+    b) Re-write the front end URL and request display name to a more relevant name and path:
+
+    From:
+
+    ![Orders API](./media/ex3/la1_or_apim3.png)
+
+    To:
+    
+    ![Orders API](./media/ex3/la1_or_apim2.png)
+
+    - Display name: "Create Order"
+    - URL: /create
+
+    The new path is now:
+    
+    ![Orders API](./media/ex3/la1_or_apim4.png)
+
+7) Test the new APIM fronted endpoint using Postman:
+
+    **Note:** Remember to use the APIM subscription key obtained from the Test tab in the APIs blade:
+    
+    ![Orders API](./media/ex3/la1_or_apim5.png)
+
+    a) Submit the request using Postman:
+
+    ![Orders API](./media/ex3/la1_or_test3.png)
+
+    b) Confirm the new order is persisted in the Cosmos "PendingOrders" collection:
+
+    ![Orders API](./media/ex3/la1_or_test4.png)
+
+
 
