@@ -32,7 +32,7 @@ In the exercise we'll create the Logic App that is responsible for recieving the
     ![V3 Create or Update Action](./media/ex3/la1_or_cdv3.png)
 
     - The Database/Collection IDs are FlavoredOfficeSupplies/PendingOrders
-    - The document to be persisted should match the structure of the inboud rest JSON document and with values dynamically generated from the HTTP request triggered as pictured.
+    - The document to be persisted should match the structure of the inbound rest JSON document and with values dynamically generated from the HTTP request triggered as pictured.
     - An ID should be programatically created using a dynamic expression for creating a guid().
 
 4) Next, create a response action as follows:
