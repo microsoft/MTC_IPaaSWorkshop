@@ -50,4 +50,4 @@ Steps:
     ![Resource Group](./media/ex2/cosmos1_db_c2.png)
 
 
-All required core infrastructure related services are now provisioned and you can now move to [Exercise 2: Create Order Receiver Logic App](./03-order-reciever-la.md).
+All required core infrastructure related services are now provisioned and you can now move to [Exercise 3: Create Order Receiver Logic App](./03-order-reciever-la.md).

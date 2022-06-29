@@ -87,4 +87,4 @@ In the exercise we'll create the Logic App that is responsible for recieving the
     ![Orders API](./media/ex3/la1_or_test4.png)
 
 
-
+The order reciever Logic App is now complete and will process and persist incoming order documents.  Continue to [Create Order Processor Logic App](./04-order-processor-la.md) to implement the Logic App that will process and persist completed order documents.
