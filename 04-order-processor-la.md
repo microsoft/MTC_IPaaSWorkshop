@@ -70,4 +70,6 @@ In the exercise we'll create the Logic App that is responsible for processing th
 
     ![Process Orders Collection](./media/ex4/la2_op_test3.png)
 
-8) Integrate the Logic App with APIM
+8) Integrate the Logic App with APIM.
+
+    a) Begin by cloning the existing Orders API.  You could also choose to implement the new process order API as a it own first order API.  This highlights a philosophical choice when structuring you APIs, you can either group only REST verbs under the same API.
