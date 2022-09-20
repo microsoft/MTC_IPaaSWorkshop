@@ -2,7 +2,10 @@
 
 ## Workshop Overview
 - [Stub] one pager
-- [Stub] presentational options
+- The content created in the workshop is designed to be delivered in of the following formats:
+  - [MTC Strategy Briefing](./00-mtc-sb.md) - 3-4 hour functionality overview and demo
+  - [MTC Hands on Lab](./00-mtc-hol.md) - Full day content created by customer
+  - [MTC 1:Many Presentation](./00-mtc-1m.md) - 3 hour functionality overview and demo to a 1:many audience
 ## Architecture Overview
 ![IPaaS Order Processor Architecture Overview.](./media/overview.png)
 ## Resources Descriptions
