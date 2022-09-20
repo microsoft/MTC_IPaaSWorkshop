@@ -1,4 +1,4 @@
-# Azure Itegration Platform as a Service Workshop / Demo
+# Azure Integration Platform as a Service Workshop / Demo
 
 ## Content Overview
 - [Stub] one pager
