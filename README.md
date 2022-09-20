@@ -1,6 +1,6 @@
-# Azure Platform as a Service Workshop / Demo
+# Azure Itegration Platform as a Service Workshop / Demo
 
-## Workshop Overview
+## Content Overview
 - [Stub] one pager
 - The content created in the workshop is designed to be delivered in of the following formats:
   - [MTC Strategy Briefing](./00-mtc-sb.md) - 3-4 hour functionality overview and demo
