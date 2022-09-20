@@ -1,0 +1,1 @@
+# Exercise 5 - CosmosDB Triggered Function App
